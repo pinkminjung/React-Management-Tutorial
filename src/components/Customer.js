@@ -4,8 +4,8 @@ class Customer extends React.Component {
   render() {
     return (
       <div>
-        <CustomerProfile id = {this.props.id} name = { this.props.name } image = {this.props.image} />
-        <CustomerInfo birthday = {this.props.birthday} gender = {this.props.gender} job = { this.props.job } />
+       <CustomerProfile id = {this.props.id} name = {this.props.name } image = {this.props.image} />
+       <CustomerInfo birthday = {this.props.birthday} gender = {this.props.gender} job = { this.props.job } />
       </div>
     )
   }

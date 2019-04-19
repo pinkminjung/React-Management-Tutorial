@@ -31,7 +31,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        { customers.map( c => {
+        { 
+          customers.map( c => {
             return (
               <Customer
                 key = {c.id}
