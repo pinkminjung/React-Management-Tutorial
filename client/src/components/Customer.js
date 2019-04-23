@@ -1,5 +1,4 @@
 import React from 'react';
-import Table from '@material-ui/core/Table';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 
@@ -7,7 +6,6 @@ import TableCell from '@material-ui/core/TableCell';
 class Customer extends React.Component {
   render() {
     return (
-      <Table >
         <TableRow>
           <TableCell>{this.props.id}</TableCell>
           <TableCell><img src={this.props.image} alt="profile" /></TableCell>
@@ -16,7 +14,6 @@ class Customer extends React.Component {
           <TableCell>{this.props.gender}</TableCell>
           <TableCell>{this.props.job}</TableCell>
         </TableRow>
-      </Table>
     )
   }
 }
